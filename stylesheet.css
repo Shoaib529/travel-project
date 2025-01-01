@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   z-index: 100;
-  background-color: #4c585b;
+  background-color: #81bfda;
 }
 
 .logo {
@@ -34,23 +34,12 @@ header {
   margin: 0 10px;
 }
 .navigation a:hover {
-  background-color: #359381;
+  background-color: #b1f0f7;
   color: #f9f9f9;
 }
 
 h2 {
   color: #da1919;
-}
-
-.hero {
-  background-image: url("imges/Tokyo-photo-spots-photographer-flytographer-12.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  justify-content: left;
-  align-items: stretch;
 }
 
 .hero-content {
@@ -60,11 +49,13 @@ h2 {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: #f9f9f9;
 }
 
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 30px;
+  color: #f9f9f9;
 }
 
 .cta-button {
@@ -74,9 +65,20 @@ h2 {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.1rem;
-  transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #e5533d;
+}
+
+.hero {
+  background-image: url("imges/best-travel-desktop-wlbfkyis81e0578u.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25rem;
 }
