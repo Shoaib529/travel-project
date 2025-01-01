@@ -5,6 +5,78 @@
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+  background-color: #4c585b;
+}
+
+.logo {
+  font-size: 2em;
+  color: #f9f9f9;
+  pointer-events: none;
+  margin-right: 270px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #f9f9f9;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.navigation a:hover {
+  background-color: #359381;
+  color: #f9f9f9;
+}
+
 h2 {
-  color: aqua;
+  color: #da1919;
+}
+
+.hero {
+  background-image: url("imges/Tokyo-photo-spots-photographer-flytographer-12.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: stretch;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  text-decoration: none;
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e5533d;
 }
